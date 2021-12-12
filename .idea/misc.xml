@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.eclipse.microprofile.openapi.annotations.OpenAPIDefinition" />
+    </list>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="Quarkus" url="file://$PROJECT_DIR$/amqp-quickstart-processor" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/amqp-quickstart-producer" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/auth-service" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/chain-calendar-auth-service" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/chain-calendar-contract-service" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/chain-calendar-rpa-exe-api" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/chain-calendar-site-service" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/rabbitmq-quickstart-processor" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/rabbitmq-quickstart-producer" />
+    <file type="Quarkus" url="file://$PROJECT_DIR$/site-service" />
+    <file type="web" url="file://$PROJECT_DIR$/chain-calendar-auth-service" />
+    <file type="web" url="file://$PROJECT_DIR$/chain-calendar-site-service" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/chain-calendar-auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/chain-calendar-site-service/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/site-service/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-quickstart-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-quickstart-processor/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="azul-17" project-jdk-type="JavaSDK" />
+</project>

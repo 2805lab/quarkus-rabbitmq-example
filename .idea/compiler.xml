@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="rabbitmq-quickstart-processor" />
+        <module name="rabbitmq-quickstart-producer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="amqp-quickstart-processor" target="11" />
+      <module name="amqp-quickstart-producer" target="11" />
+      <module name="auth-service" target="11" />
+      <module name="chain-calendar-auth-service" target="11" />
+      <module name="chain-calendar-auth-service.main" target="11" />
+      <module name="chain-calendar-auth-service.native-test" target="11" />
+      <module name="chain-calendar-auth-service.quarkus-generated-sources" target="11" />
+      <module name="chain-calendar-auth-service.quarkus-test-generated-sources" target="11" />
+      <module name="chain-calendar-auth-service.test" target="11" />
+      <module name="chain-calendar-contract-service" target="11" />
+      <module name="chain-calendar-contract-service.main" target="11" />
+      <module name="chain-calendar-contract-service.native-test" target="11" />
+      <module name="chain-calendar-contract-service.quarkus-generated-sources" target="11" />
+      <module name="chain-calendar-contract-service.quarkus-test-generated-sources" target="11" />
+      <module name="chain-calendar-contract-service.test" target="11" />
+      <module name="chain-calendar-rpa-exe-api" target="11" />
+      <module name="chain-calendar-site-service" target="11" />
+      <module name="chain-calendar-site-service.main" target="11" />
+      <module name="chain-calendar-site-service.native-test" target="11" />
+      <module name="chain-calendar-site-service.quarkus-generated-sources" target="11" />
+      <module name="chain-calendar-site-service.quarkus-test-generated-sources" target="11" />
+      <module name="chain-calendar-site-service.test" target="11" />
+      <module name="site-service" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="amqp-quickstart-processor" options="-parameters" />
+      <module name="amqp-quickstart-producer" options="-parameters" />
+      <module name="auth-service" options="-parameters" />
+      <module name="chain-calendar-auth-service" options="-parameters" />
+      <module name="chain-calendar-contract-service" options="-parameters" />
+      <module name="chain-calendar-rpa-exe-api" options="-parameters" />
+      <module name="chain-calendar-site-service" options="-parameters" />
+      <module name="rabbitmq-quickstart-processor" options="-parameters" />
+      <module name="rabbitmq-quickstart-producer" options="-parameters" />
+      <module name="site-service" options="-parameters" />
+    </option>
+  </component>
+</project>
